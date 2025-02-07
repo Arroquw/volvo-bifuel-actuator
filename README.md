@@ -11,4 +11,4 @@ In this repositaory I made some sort of PoC with an arduino nano and a TMC2209 s
 
 The datasheet seems to imply that the READ_OUT signal goes low when the motor is in a bad state (e.g. coils of the stepper motor shorted - either to ground or each other, PWM signal bad (duty cycle wrong or wrong frequency), too low input voltage, etc.), and I just set it to high.
 
-Arduino software, HW schematics and docs WIP to upload
+HW schematics WIP to upload
