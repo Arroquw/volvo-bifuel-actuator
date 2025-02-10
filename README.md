@@ -9,6 +9,4 @@ This driver board gets some PWM signal from the ECM/ECU or whichever module does
 
 In this repositaory I made some sort of PoC with an arduino nano and a TMC2209 stepper driver, which does seem to kind of work to move the topran or magneti marelli (I ordered both) I mentioned earlier, but if I put it in my car, it won't switch over to LPG, and I expect that is due to how I implemented the READY_OUT signal.
 
-The datasheet seems to imply that the READ_OUT signal goes low when the motor is in a bad state (e.g. coils of the stepper motor shorted - either to ground or each other, PWM signal bad (duty cycle wrong or wrong frequency), too low input voltage, etc.), and I just set it to high.
-
-HW schematics WIP to upload
+The datasheet seems to imply that the READY_OUT signal goes low when the motor is in a bad state (e.g. coils of the stepper motor shorted - either to ground or each other, PWM signal bad (duty cycle wrong or wrong frequency), too low input voltage, etc.), and I just set it to high.
